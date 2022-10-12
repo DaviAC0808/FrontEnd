@@ -1,2 +1,2 @@
 # HTML-CSS-GIT
- repositório Versionado
+ Primeiro repositório versionado.
