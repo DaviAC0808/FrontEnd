@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon_io/favicon_io-Books/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="top">
+        <nav>
+            <div class="menu">
+                <abbr title="Home"><a href="index.html"><img src="img/favicon_io/favicon_io-Books/favicon.ico" alt="Home"></a></abbr>
+                <div>Menu</div>
+                <div><a href="social.html">Sobre</a></div>
+                <div>Contato</div>
+            </div>
+        </nav>
+        <h1>Ola, Mundo!</h1>
+        <hr>
+        <!--Comentario-->        
+    </div>
+    <div>
+        <h2>Imagem Flexível</h2>
+
+        <p>Bom, aqui tem um exemplo de Imagem flexível.</p>
+        <p>Almente e diminua o tamanho da sua aba para ver a flexibilidade da imagem em ação.</p>
+    </div>
+    
+    <picture>
+        <source media="(max-width: 754px)" srcset="img/Imagens/Desafios/d007/paisagem-p.png" type="image/png">
+        
+        <source media="(Max-width: 1210px)" srcset="img/Imagens/Desafios/d007/paisagem-m.png" type="image/png">
+       
+        <img src="img/Imagens/Desafios/d007/paisagem-g.png" alt="Paisagem g">
+    </picture>
+    <div class="navbar"></div>
+
+    <pre>
+        &lt;picture&gt; &lt;!--Banco de imágens-->
+            &lt;source media="(max-width: 754px)" srcset="../../Imagens/Desafios/d007/paisagem-p.png" type="image/png">
+            
+            &lt;source media="(Max-width: 1210px)" srcset="../../Imagens/Desafios/d007/paisagem-m.png" type="image/png">
+           
+            &lt;img src="../../Imagens/Desafios/d007/paisagem-g.png" alt="Paisagem g">
+        &lt;/picture&gt;
+    </pre>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/P.png" type="image/png">
+      
+        <source media="(max-width: 1050px)" srcset="img/M.png" type="image/png">
+     
+        <img src="img/G.png" alt="Imagem flexível"><!--Menor px em cima para max-width-->
+      </picture>
+      
+      <picture>     
+        <source media="(min-width: 1050px)" srcset="img/G.png" type="image/png"><!--type=tipo=formato-->
+     
+        <source media="(min-width: 750PX)" srcset="img/M.png" type="image/png">
+     
+        <img src="img/P.png" alt="Imagem flexível">  
+     </picture>
+     
+     <P>Jeitos diferentes poérm mesmo formato (atenção ao Menor px em cima para max-width)</P>
+     
+     <a href="index.html" rel="_self" target="_top"></a>
+
+     <hr>
+     
+     <div>
+         <h2>Áudios</h2>
+         <P>Criando uma biblioteca de audios</P>
+         <p>O jeito mais simples de se adicionar um audio eh com a tag &lt;audio&gt;</p>
+         <audio src="Aud/Culto 240722.mp3" controls></audio>
+         <br>
+         <audio preload="metadata" autoplay controls>
+            <source src="../../Audios/Culto 240722.mp3" type="audio/mpeg">
+            <source src="Aud/Culto 240722.ogg" type="audio/ogg">
+            <source src="Aud/Culto 240722.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir audio,<a href="Aud/Culto 240722.mp3"> clique aqui</a> para baixar os arquivos .mp3</p>
+         </audio>
+         <h3>Media Types</h3>
+         <ul>
+            <li>type="audio/mpeg"</li>
+            <li>type="audio/ogg"</li>
+            <li>type="audio/wav"</li>
+         </ul>
+             <p><a href="../../PDFs/11 - Imagens dinâmicas, áudios e vídeos.pdf" target="_blank">Pdf(11)</a> para fixação</p>
+     </div>
+
+    <hr>
+
+    <div>
+        <h2>vídeos</h2>
+
+        <h3>Vídeos Externos</h3>
+          
+        <ul>
+            <li>
+                <strong>Mais simples</strong>
+                <p>podemos também inserir arquivos de vídeos com a tag &lt;video src="url" poster="url(Thumb)" controls&gt;</p><!--width = tamanho-->
+                <video src="vid/Video001.m4v" controls width="560"></video>
+            </li>
+            <li>
+                <strong>Mais complexo</strong>
+                <p>É necessário pensar também em outros navegadores</p>
+                
+                <video poster="img/Cidade.jpg" width="560" controls>
+                    <source src="vid/video001.mp4" type="video/mp4">
+                    <source src="vid/Video001.webm" type="video/webm">
+                    <source src="vid/Video001.m4v" type="video/m4v">
+                    <p>Infelizmente o vídeo não pode ser carregado neste navegador.</p><!--Tente mudar de navegador-->
+                </video>
+                <li><strong>Mais ultilizado</strong></li>
+                <p>Você pode imcorporar vídeos no seu site q sejam de sites expecializados em biblioteca de vídeos, como o YouTube por exemplo.</p>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </li>
+        </ul>
+
+        <h3>Indice <a href="Indexcbcf.html" target="_self" rel="next">CBCF</a></h3>
+        <p>Veja alguns vídeos do canal no YouTube Conheça Sua Bíblia Conheça Sua Fé</p>
+
+    </div>
+
+
+</body>
+</html>
