@@ -57,5 +57,20 @@ Num | Nome | Nota
 
 O comando `<a href="markdown.html">clique aqui</a>` inserta imagem em um arquivo HTML.
 
+Uma parte de um projeto:
+```
+<div class="top">
+        <div class="menu">
+            <abbr title="Home"><a href="index.html"><img src="img/favicon_io/favicon_io-Books/favicon.ico" alt="Home"></a></abbr>
+            <div>Menu</div>
+            <div class="nav-link"><a href="social.html">Sobre</a></div>
+            <div>Contato</div>
+        </div>
+        <h1>Ola, Mundo!</h1>
+        <hr>
+        <!--Comentario-->        
+    </div>
+```
+
 
  
