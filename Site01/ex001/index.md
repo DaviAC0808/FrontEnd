@@ -73,7 +73,8 @@ Uma parte de um projeto:
 ```
 ## Emogi
 Olá, :vulcan_salute
-https://github.com/ikatyang/emoji-cheat-sheet
+**https://github.com/ikatyang/emoji-cheat-sheet**
 
-
- 
+# Reply
+> Reply é feito a partir do sinal **maior que**
+@GustavoGuanabara
