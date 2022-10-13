@@ -42,7 +42,20 @@ Clica e arrasta
 ![Descrição](img/favicon_io/favicon.ico)
 max 500px
 
+---
 ## Tabelas
+
+Num | Nome | Nota
+---|---|---
+1 | Davi | 8,5
+2 | Ednei | 5,5
+---|---|---
+3 | Faiferson | 9,9
+
+---
+## Comando
+
+O comando `HTML5` inserta o início de uma pag HTML.
 
 
  
