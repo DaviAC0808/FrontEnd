@@ -30,7 +30,7 @@ __*Misturado*__ usando ambos (**__)
       - Teste3  
 
 ### Listas De Tarefas
--[] Acordar
--[] Devocional
--[] escovar os dentes
--[] café da manhã
+-[ ] Acordar
+-[ ] Devocional
+-[ ] escovar os dentes
+-[ ] café da manhã
