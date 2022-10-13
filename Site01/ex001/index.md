@@ -71,6 +71,9 @@ Uma parte de um projeto:
         <!--Comentario-->        
     </div>
 ```
+## Emogi
+Olá, :vulcan_salute
+https://github.com/ikatyang/emoji-cheat-sheet
 
 
  
