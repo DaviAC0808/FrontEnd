@@ -42,10 +42,6 @@ Clica e arrasta
 ![Descrição](img/favicon_io/favicon.ico)
 max 500px
 
-## Links
-
-Me siga também no (Twitter)[https://twitter.com/_Gigante72_]
-
 ## Tabelas
 
 
