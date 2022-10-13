@@ -21,5 +21,10 @@ __*Misturado*__ usando ambos (**__)
 1. teste
 1. teste2
 3. teste3
-   1. teste4
-   
+   1. teste4(3Spaces)
+
+   ### Listas Demarcada
+   * teste
+   * teste1
+   * Teste2
+      * Teste3  
