@@ -82,7 +82,7 @@ Olá, :vulcan_salute
 + Muito obrigado pela sua colaboração!
 
 + Mais conteudo em ![**PDF**](https://github.com/gustavoguanabara/git-github/tree/master/manuais-PDF) 
-+ Mais conteudo em ![**WEB**](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
++ Mais conteudo em ![**WEB**](docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 ![Assinatura][def]
 
 
