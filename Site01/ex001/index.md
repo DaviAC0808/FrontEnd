@@ -34,3 +34,13 @@ __*Misturado*__ usando ambos (**__)
 -[ ] Devocional
 -[ ] escovar os dentes
 -[ ] café da manhã
+
+---
+## Imagens
+
+Clica e arrasta
+![Descrição](img/favicon_io/favicon.ico)
+max 500px
+
+## Links
+ 
