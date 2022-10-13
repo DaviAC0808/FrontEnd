@@ -55,7 +55,7 @@ Num | Nome | Nota
 ---
 ## Comando
 
-O comando `HTML5` inserta o início de uma pag HTML.
+O comando `<a href="markdown.html">clique aqui</a>` inserta imagem em um arquivo HTML.
 
 
  
