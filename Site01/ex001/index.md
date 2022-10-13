@@ -13,3 +13,13 @@ Rasura é feita atraves de ~~2Tius~~
 ---
 
 __*Misturado*__ usando ambos (**__)
+
+---
+## Listas
+### Listas Numeradas
+
+1. teste
+1. teste2
+3. teste3
+   1. teste4
+   
