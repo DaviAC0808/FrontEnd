@@ -26,5 +26,11 @@ __*Misturado*__ usando ambos (**__)
    ### Listas Demarcada
    * teste
    * teste1
-   * Teste2
-      * Teste3  
+   - Teste2
+      - Teste3  
+
+### Listas De Tarefas
+-[] Acordar
+-[] Devocional
+-[] escovar os dentes
+-[] café da manhã
