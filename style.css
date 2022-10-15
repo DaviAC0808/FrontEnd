@@ -16,6 +16,7 @@ div.menu{
     align-items: center;
     flex-wrap: nowrap;
     padding: 12px;
+    gap: 25px;
 }
 
 div.top{
