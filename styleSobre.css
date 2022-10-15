@@ -34,7 +34,7 @@ body{
     gap: 100px;
 }
 .nav-link-item{
-    font-size: 25px;
+    font-size: 18px;
     color: white;
     font-weight: 400;
     
@@ -59,7 +59,7 @@ p{
     font-size: 15px;
     margin: 50px;
     padding: 0;
-    
+
 }
 footer{
     border-top: #343868 2px solid;
