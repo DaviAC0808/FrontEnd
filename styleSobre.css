@@ -54,6 +54,10 @@ main{
 h2{
     padding: 15px;
 }
+h3{
+    font-size: 25px;
+    padding: 35px;
+}
 p{
     margin-top: 50px;
     margin-left: 40px;
@@ -61,10 +65,20 @@ p{
 }
 .RS{
     font-size: 15px;
-    margin: 50px;
-    padding: 0;
-
+    padding: 50px;
+}
+.listnopoint{
+    list-style-type: none;
+}
+.element{
+    padding: 5px;
 }
 footer{
+    padding-top: 25px;
     border-top: #343868 2px solid;
+}
+.ass{
+    display: flex;
+    flex-direction: ;
+    gap: 15px;
 }
