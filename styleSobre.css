@@ -8,6 +8,7 @@
 
 body{
     background: linear-gradient(55deg, rgb(40, 6, 51) 0%, #0d1031 75%);
+    background-repeat: no-repeat;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 100%;
@@ -49,10 +50,12 @@ main{
     flex-direction: row;
     text-align: center;
     gap: 30px;
-    margin: 20px;
+    margin: 50px;
 }
 h2{
     padding: 15px;
+    text-align: center;
+    font-size: 35px;
 }
 h3{
     font-size: 25px;
