@@ -80,8 +80,11 @@ footer{
     padding-top: 25px;
     border-top: #343868 2px solid;
 }
-.ass{
+.footer{
     display: flex;
-    flex-direction: ;
     gap: 15px;
+}
+.list-end{
+    list-style-type: none;
+    padding-left: 15%;
 }

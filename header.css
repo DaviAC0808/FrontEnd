@@ -10,12 +10,12 @@
 {
     --clr: #222327;
 }
-body
+.body
 {
     display: flex;
     justify-content: center;
-    margin: 200px;
-    min-height: 100vh;
+    margin: 30px;
+    min-height: 10vh;
     background-color: var(--clr);
 }
 .navegation

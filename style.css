@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
+:root
+{
+    --clr: #222327;
+}
+
 body{
-    background-color: rgb(17, 19, 22);
+    background-color: var(--clr);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     color: white;
     font-size: 23px;
@@ -92,8 +97,39 @@ caption.tabecoppy{
     text-align: left;
     font-size: 12pt;
 }
+.p1{
+ padding-left: 25px;  
+}
+.p2{
+    padding-left: 25px;  
+}
+.p3{
+    padding-left: 25px;
+}
+.p4{
+    padding-left: 25px;
+}
+.p5{
+    padding-left: 25px;  
+   }
+.p6{
+    padding-left: 25px;  
+}
+.p7{
+    padding-left: 25px;  
+}
 .rodape{
-    background-color: #171B1F;
+    padding: 0;
+    margin: 0;
+    background-color: #373c51;
+    padding-top: 5px;
+    border-top: #29fd53 2px solid;
+}
+.rodape .colun{
+    font-size: 10px;
+    display: block;
+
+
 }
 
 

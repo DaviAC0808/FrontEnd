@@ -7,21 +7,61 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon_io/favicon_io-Books/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="header.css">
+
     
 </head>
 <body>
-    <header class="top">
-        <div class="menu">
-            <abbr title="Home"><a href="index.html"><img src="img/favicon_io/favicon_io-Books/favicon.ico" alt="Home"></a></abbr>
-            <div>Menu</div>
-            <div class="nav-link"><a href="social.html">Sobre</a></div>
-            <div>Contato</div>
+    <header class="body">
+        <div class="navegation">
+            <ul>
+                <li class="list active">
+                    <a href="index.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <span class="text">Profile</span>
+                    </a>
+                </li><li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                        <span class="text">Mensage</span>
+                    </a>
+                </li><li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="images-outline"></ion-icon></span>
+                        <span class="text">Photos</span>
+                    </a>
+                </li>
+                </li><li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                        <span class="text">Settings</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
         </div>
-        <h1>Ola, Mundo!</h1>
-        <hr>
+        <script>
+            const list = document.querySelectorAll('.list');
+            function activeLink(){
+                list.forEach((item) =>
+                item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item) =>
+            item.addEventListener('click',activeLink));
+        </script>
+        
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <!--Comentario-->        
     </header>
-    <div>
+    <div class="p1">
         <p>colocndo um paragrafo em parágrafo &lt;p&gt</p> <!--CTRL+SHIFT+P enter (Tag) enter-->
         <p>Esse é o meu primeiro texto html.
         </p>
@@ -36,7 +76,7 @@
 
 
     <hr>
-    <div>
+    <div class="p2">
         <h2>HiperText Markup Languange</h2>
         <p>&nbsp; espaço em branco = &+nbsp </p><!--&nbsp-->
         <p>&sum; somatório = &+sum </p><!--&sum-->
@@ -51,7 +91,7 @@
     </div>
 
     <hr>
-    <div>
+    <div class="p3">
         <h2>Formatação de texto</h2>
         <p>Indentar um texto <strong>forte</strong></p>
         <!-- '<' LT = Less than / '>' GT = Greater than -->
@@ -178,7 +218,8 @@
         <dd>40m, 1,5mm</dd>
          </dl>
     </div>
-    <div>
+    <div class="p4">
+        <h3>Tabelas</h3>
         <table>
             <caption class="tabecoppy"><em>&copy; Mozila</em></caption>
             <tr>
@@ -204,8 +245,8 @@
         </table>
     </div>
 
- <hr>
-    <div>
+    <hr>
+    <div class="p5">
         <h2>Trabalhando com links</h2>
         
         <p>Chegou a hora de clicar</p>
@@ -226,8 +267,8 @@
         <p>Para Download dos arquivos <a href="Downloads.html" target="_self" rel="next">Clique aqui</a></p>
     </div>
 
- <hr>
-    <div>
+    <hr>
+    <div class="p6">
         <h2>Midias</h2>
         
         <P>Sabe quando você abre um site no seu pc e fica diferente de quando você abre no celular?</P>
@@ -236,19 +277,19 @@
         
         <p>Poisé isso se da pelo fato da falta de <a href="Imagemflex.html">responsívidade</a> do site.</p>     
     </div>
- <hr>
- <div>
-    <h2>Folhas de Estilo</h2>
-    
-    <p>Agora iremos trabalhar um poco com estilização do site, para maior organização <a href="css.html">clique aqui</a>.</p>
-    <p>Um modelo para <a href="header.html">Cabeçalho</a></p>
+    <hr>
+    <div class="p7">
+        <h2>Folhas de Estilo</h2>
+        
+        <p>Agora iremos trabalhar um poco com estilização do site, para maior organização <a href="css.html">clique aqui</a>.</p>
+        <p>Um modelo para <a href="header.html">Cabeçalho</a></p>
 
- </div>
+    </div>
   
  <footer class="rodape">
-     <div style="font-size: 10px;">
-        <hr>
+     <div class="colun">
         <h2>Fontes</h2>
+        <br>
         <ul class="listnopoint">
         
             <li>
