@@ -78,16 +78,17 @@ p{
 }
 footer{
     padding-top: 25px;
-    border-top: #343868 2px solid;
-}
-.footer{
+    border-top: #2a3180 2px solid;
     display: flex;
-    gap: 15px;
-}
+    gap: 5%;
+    margin-block-end: 50px;
+}    
 .list-end{
     list-style-type: none;
     padding-left: 15%;
 }
 .p1{
     border-top: 2px solid #343868;
+    margin-top: 25px;
+    font-size: 20pt;
 }
