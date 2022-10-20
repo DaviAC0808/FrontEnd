@@ -85,10 +85,12 @@ footer{
 }    
 .list-end{
     list-style-type: none;
-    padding-left: 15%;
 }
 .p1{
     border-top: 2px solid #343868;
     margin-top: 25px;
     font-size: 20pt;
+}
+.buttonbible{
+    padding: 5px;
 }
