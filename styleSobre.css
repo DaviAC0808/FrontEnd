@@ -62,7 +62,7 @@ h3{
     padding: 35px;
 }
 p{
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 40px;
     text-align: justify;
 }
@@ -87,4 +87,7 @@ footer{
 .list-end{
     list-style-type: none;
     padding-left: 15%;
+}
+.p1{
+    border-top: 2px solid #343868;
 }
