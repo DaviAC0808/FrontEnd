@@ -10,7 +10,7 @@
 {
     --clr: #222327;
 }
-.body
+body
 {
     display: flex;
     justify-content: center;
