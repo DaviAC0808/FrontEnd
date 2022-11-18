@@ -13,11 +13,24 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 100%;
 }
+
 .top{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 100%;
+    border-bottom: 2px solid #343868;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 25px;
+}
+
+.home-letrer {
+    font-size: 20pt;
+    padding: 10%;
+}
+
+h1{
+    text-align: center;
 }
 
 .nav-home{
@@ -93,4 +106,7 @@ footer{
 }
 .buttonbible{
     padding: 5px;
+}
+.ecma{
+    width: 50%;
 }

@@ -1,290 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon_io/favicon_io-Books/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styleSobre.css">
 
-    
+
 </head>
+
 <body>
-    <header class="top">        
+    <header class="top">
         <nav class="nav-home">
-            <abbr title="Home"><a href="index.html"><img src="img/favicon_io/favicon_io-Books/android-chrome-512x512.png" alt="Home" width="50"></a></abbr>
+            <abbr title="Home"><a href="index.html"><img
+                        src="img/favicon_io/favicon_io-Books/android-chrome-512x512.png" alt="Home"
+                        width="50"></a></abbr>
             <h1>Ola, Mundo!</h1>
         </nav>
-       
+
         <nav class="nav-link">
-            <a href="#" class="nav-link-item">Menu</a>
-            <a href="social.html" class="nav-link-item">Sobre</a>
-            <a href="#" class="nav-link-item">Contato</a>
+            <a href="html.html" class="nav-link-item">HTML</a>
+            <a href="css.html" class="nav-link-item">CSS</a>
+            <a href="js.html" class="nav-link-item">JavaScript</a>
         </nav>
-        <!--Comentario-->        
+        <!--Comentario-->
     </header>
-    <div class="p1">
-        <p>colocndo um paragrafo em parágrafo &lt;p&gt</p> <!--CTRL+SHIFT+P enter (Tag) enter-->
-        <p>Esse é o meu primeiro texto html.
-        </p>
-        <p>Este site serve unica e exclusivamente para te guiar na criação de um site em HTML E CSS</p>
-        <p>
-            Quebra de linha &lt;br&gt;
-            <br>
-            HiperText Markup Languange
-        </p>
-        <br>
+
+    <div class="home-letrer">
+        <h1>Site de estudos de FrontEnd</h1>
     </div>
 
-    <div class="p2">
-        <h2>HiperText Markup Languange</h2>
-        <p>&nbsp; espaço em branco = &+nbsp </p><!--&nbsp-->
-        <p>&sum; somatório = &+sum </p><!--&sum-->
-        <p>&Delta; delta = &+Delta </p><!--&Delta (Mauiúcolo)-->
-        <p>&reg; Marca Registrada = &+reg </p><!--&reg-->
-        <p>&copy; Copy Right = &+copy </p><!--&copy-->
-        <p>&trade; Trade Mark = &+trade</p><!--&trade-->
-        <p>&larr; Seta Esquerda = &+larr </p><!--&larr ('L'eft,U,D,R)-->
-        <p>&Theta; Theta = &+Theta</p><!--&Theta-->
-        <p>&theta; theta = &+theta</p><!--&theta-->
-        <p><a href="https://emojipedia.org" target="_blank" rel="external">&#x1F643;</a>Emogi = &#x(Código do emogi +'...')</p><!--&#x(codemogi)...;-->
-        <br>
-    </div>
+    <div>
+        <h2>Quem sou eu?</h2>
+        <div class="me">
+            <picture>
+                <img src="img/d005/Design sem nome.png" alt="Davi" title="Davi" width="200">
+            </picture>
+            <P>Meu nome é <strong>Davi Aguiar Cardoso</strong>,<br> sou programador fronte_end com foco em full stack,
+                faço engenharia da computação no Instituto Federal IF-Parque Tecnológico de Uberaba-MG. Sou técnico de
+                som amador da Igreja Sal Da Terra Uberaba, e desenvolvi esse site do zero com a ajuda do professor
+                Gustavo Ganabara.</P>
+        </div>
 
-    <div class="p1">
-        <h2>Formatação de texto</h2>
-        <p>Indentar um texto <strong>forte</strong></p>
-        <!-- '<' LT = Less than / '>' GT = Greater than -->
-        <p>colocando um texto <em>em italico</em> e em parágrafo &lt;em&gt;</p>
-        <p>marcando <mark>esse treixo</mark> com uma caneta marca texto &lt;mark&gt;</p><!--mark-->
-        <p><ins>texto sublinhado &lt;ins&gt;</ins></p>
-        <p><del>texto cortado</del>&lt;del&gt;</p>
-        <p><sup>texto sobrescrito</sup>&lt;sup&gt;</p>
-        <p><sub>texto subescrito</sub>&lt;sub&gt;</p>
-        
-        
-        <h3>Código Fonte</h3>
-        <p><code>fonte mono espassada</code> &lt;code&gt;</p>
-        <p>a tag &lt;pre&gt; organisa a quebra de linda de acordo com o codigo fonte</p>
-        <pre>
-        <code>
-            num = int(imput('Digite o Número'))
-            if num % 2 == 0:
-                print(f'O Número {num} é Par')
-            else:
-                print(f'O Número {num} é Ímpar')
-            print(f'fim do programa')
-        </code>
-        </pre>
-        
-        <h3>Citações</h3>
-        
-        <h4>Citação simples</h4>
-        
-        <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p>
-        <p>Portanto citações simples são usadas sob a tag &lt;q&gt;</p>
-        
-        <h4>Citação completa</h4>
-        <p>Segundo o evangelho de João 1:1-5</p>
-        <p>&lt;blockquote&gt;</p><blockquote cite="https://www.bibliaonline.com.br/ara/jo/1">
-        <sup>1</sup>No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.
-        <sup>2</sup>Ele estava no princípio com Deus.
-        <sup>3</sup>Todas as coisas foram feitas por intermédio dele, e, sem ele, nada do que foi feito se fez.
-        <sup>4</sup>A vida estava nele e a vida era a luz dos homens.
-        <sup>5</sup>A luz resplandece nas trevas, e as trevas não prevaleceram contra ela.        
-        </blockquote>
-        
-        <p>Outro exemplo de blockquote</p>
-        <blockquote>O Elemento HTML &lt;blockquote&gt; (ou Elemento HTML de citação de bloco) indica que o texto incluído é uma longa citação. Normalmente, este é processado visualmente pelo recuo. A URL para a fonte da citação pode ser dada usando o atributo cite, enquanto uma representação de texto da fonte pode ser dada usando o &lt;cite&gt; elemento.</blockquote>
-        
-        <p>Alternativa do blockquote</p>
-        <p>O elemento HTML &lt;q&gt; indica que o texto dentro da tag é uma pequena citação. <q>Este elemento</q> destina-se a citações curtas que não requerem marcações de parágrafo</p>
-        
-        <cite><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote" target="_blank"><button>&copy;mozilla.org</button></a></cite>
-        
-        <h3>Siglas</h3>
-        
-        <p>Estou estudando <abbr title="HiperText Markup Languange">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
-        <p>A tag para Siglas no cursor do mouse é &lt;abbr&gt;</p>
-        
-        <h3>Texto Invertido</h3>
-        
-        <p>Tag = &lt;bdo&gt; ('lrt' ou 'rtl')</p>
-        <p><bdo dir="rtl">Então se eu começar a escrever e aplicar a Tag &lt;bdo&gt; todo o meu texto ficará Invertido.</bdo></p>
-        
-        
-         <h3>Listas</h3>
-        
-         <h4>Listas ordenadas</h4>
-         <p> &lt;ol&gt; (&lt;li&gt;)</p>
-         <P>type="1/A/a/I/i"</P>
-         <p>start "n"</p>
-        
-         <ol title="Ordem de serviço" type="1" start="1">
-        <li>Detectar o problema</li>
-        <LI>Procurar solução</LI>
-        <li>Orçar solução</li>
-        <li>Arrecadar recurso</li>
-        <li>Investir na solução</li>
-        <li>Instalar(se necessário)</li>
-         </ol>
-        
-         <h4>Listas desordenadas</h4>
-         
-         &lt;ul&gt; (&lt;li&gt;)
-         <p>type="square/circle/disc"</p>
-        
-         <ul title="Compras" type="square">
-        <li>24 parafusos 5mm</li>
-        <li>12 caixas de tomadas</li>
-        <li>12 tomadas</li>
-        <li>40m canaleta pvc</li>
-        <li>40m fio de cobre 1,5mm</li>
-         </ul>
-        
-         <h4>Juntando listas v1.0</h4>
-         
-         <ol title="Ordem de serviço">
-        <li>Detectar o problema</li>
-        <LI>Procurar solução</LI>
-        <li>Orçar solução</li>
-        <ul title="Compras" type="square">
-            <li>24 parafusos 5mm</li>
-            <li>12 caixas de tomadas</li>
-            <li>12 tomadas</li>
-            <li>40m canaleta pvc</li>
-            <li>40m fio de cobre 1,5mm</li>
-        </ul>
-        <li>Arrecadar recurso</li>
-        <li>Investir na solução</li>
-            <ul title="Preço">
-                R$1500
+        <div class="RS">
+            <h3>Minhas Redes Sociais:</h3>
+            <ul class="listnopoint">
+                <li class="element"><a href="https://www.instagram.com/daviaguiarcardoso/" rel="nofollow"
+                        target="_blank"><img src="img/d005/instagram.png" alt="Instagram" width="25"></a> Me chama na DM
+                    do Instagram</li>
+                <li class="element"><a href="https://www.facebook.com/davi.aguiarcardoso/" rel="nofollow"
+                        target="_blank"><img src="img/d005/facebook.png" alt="Facebook" width="25"></a> Não uso muito
+                    mas pode me chamar lá também que eu respondo.</li>
+                <li class="element"><a href="https://www.youtube.com/channel/UCx0DtsVi_-E9JnHQmQ8G7eA" rel="nofollow"
+                        target="_blank"><img src="img/d005/youtube.png" alt="YouTube" width="25"></a> Esse eh um canal
+                    que eu gerencio. É um bom conteudo, indico.</li>
+                <li class="element"><a href="https://www.linkedin.com/in/davi-aguiar-cardoso-204b33163/" rel="nofollow"
+                        target="_blank"><img src="img/d005/linked-17-437632.png" alt="Linkedin" width="25"></a> Este é o
+                    meu prfil profissional</li>
             </ul>
-        <li>Instalar(se necessário)</li>
-         </ol>
-        
-         <h4>Listas de Definições</h4>
-         
-         <p>dt = termo / dd = descrição</p>
-        
-         <dl>
-        <dt>parafusos</dt>
-        <dd>24x, 5mm</dd>
-        <dt>caixas de tomadas</dt>
-        <dd>12</dd>
-        <dt>caneleta pvc</dt>
-        <dd>40m</dd>
-        <dt>fio de cobre</dt>
-        <dd>40m, 1,5mm</dd>
-         </dl>
+        </div>
     </div>
 
-    <div class="p1">
-        <h3>Tabelas</h3>
-        <table>
-            <caption class="tabecoppy"><em>&copy; Mozila</em></caption>
-            <tr>
-                <th scope="col">Player</th>
-                <th scope="col">Dados</th>
-                <th scope="col">Multiply</th>
-            </tr>
-            <tr>
-                <th scope="row">TR-7</th>
-                <td>7</td>
-                <td>4,569</td>
-            </tr>
-            <tr>
-                <th scope="row">Khiresh Odo</th>
-                <td>2</td>
-                <td>7,223</td>
-            </tr>
-            <tr>
-                <th scope="row">Mia Oolong</th>
-                <td>9</td>
-                <td>6,219</td>
-            </tr>
-        </table>
-    </div>
+    <footer>
+        <abbr title="Voltar"><a href="index.html"><img src="img/voltar.png" alt="Voltar"></a></abbr>
+        <img src="img/Assinatura.png" alt="Assinatura Digital" width="600">
+        <div class="colun">
+            <br>
+            <ul class="list-end">
+                <li class="element">
+                    <strong>Abas</strong>
+                </li>
+                <li class="element">
+                    <a href="MapaMundi.html">Mapa Mundi</a>
+                </li>
+                <li class="element">
+                    <a href="Indexcbcf.html">Biblioteca de Vídeos</a>
+                </li>
+                <li class="element">
+                    <a href="Imagemflex.html">Responsividade de Pagina</a>
+                </li>
+            </ul>
+        </div>
 
-    <div class="p1">
-        <h2>Trabalhando com links</h2>
-        
-        <p>Chegou a hora de clicar</p>
-        <p>Referencia HiperTexto</p>
-        <h3>Links externos</h3>
-        
-        <p>Voce pode acessar o meu repositório público no <a href="https://github.com/DaviAC0808" target="_blank" rel="external">GitHub</a></p><!--ancora (_blank)external-->
-        <p>Você também pode acessar meu canal no <a href="https://www.youtube.com/c/ConheçasuaBíbliaConheçasuaFé">YouTube</a></p><!--ancora 'menu'-->
-        <h3>Links interno</h3>
-        <p><a href="pag001.html" target="_self" rel="next"><mark>SubPágina</mark></a><!--next/prev(ious)--></p>
-        <p><a href="MapaMundi.html">Mapa Mundi</a></p>
-        <p><a href="social.html" target="_self">Redes Sociais</a></p>
-        <h3>Importante</h3>
-        <p>"../" = volta na pasta anterior.
-            Vai aprender Linox. (Back_end)
-        </p>
-        <h3>links para Downloads</h3>
-        <p>Para Download dos arquivos <a href="Downloads.html" target="_self" rel="next">Clique aqui</a></p>
-    </div>
-
-    
-    <div class="p1">
-        <h2>Midias</h2>
-        
-        <P>Sabe quando você abre um site no seu pc e fica diferente de quando você abre no celular?</P>
-        
-        <h3>Midias flexíveis</h3>
-        
-        <p>Poisé isso se da pelo fato da falta de <a href="Imagemflex.html">responsívidade</a> do site.</p>     
-    </div>
-    
-    <div class="p1">
-        <h2>Folhas de Estilo</h2>
-        
-        <p>Agora iremos trabalhar um poco com estilização do site, para maior organização <a href="css.html">clique aqui</a>.</p>
-        <p>Um modelo para <a href="header.html">Cabeçalho</a></p>
-        <br>
-
-    </div>
-  
- <footer>
-    <abbr title="Voltar"><a href="index.html"><img src="img/voltar.png" alt="Voltar"></a></abbr>
-    <img src="img/Assinatura.png" alt="Assinatura Digital" width="600"> 
-    <div class="colun">
-        <br>
-        <ul class="list-end">
-            <li class="element">
-                <strong>Abas</strong>
-            </li>
-            <li class="element">
-                <a href="MapaMundi.html">Mapa Mundi</a>
-            </li>
-            <li class="element">
-                <a href="Indexcbcf.html">Biblioteca de Vídeos</a>
-            </li>
-            <li class="element">
-                <a href="Imagemflex.html">Responsividade de Pagina</a>
-            </li>
-        </ul>
-    </div>
-    
         <div class="colun">
             <ul class="list-end">
                 <li class="element">
                     <strong>Fontes</strong>
                 </li>
                 <li class="element">
-                    <a href="https://developer.mozilla.org/en-US/" target="_blank"><svg id="mdn-docs-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 361 104.2" xml:space="preserve" role="img" width="70"><title>MDN Web Docs</title><path d="M197.6 73.2h-17.1v-5.5h3.8V51.9c0-3.7-.7-6.3-2.1-7.9-1.4-1.6-3.3-2.3-5.7-2.3-3.2 0-5.6 1.1-7.2 3.4s-2.4 4.6-2.5 6.9v15.6h6v5.5h-17.1v-5.5h3.8V51.9c0-3.8-.7-6.4-2.1-7.9-1.4-1.5-3.3-2.3-5.6-2.3-3.2 0-5.5 1.1-7.2 3.3-1.6 2.2-2.4 4.5-2.5 6.9v15.8h6.9v5.5h-20.2v-5.5h6V42.4h-6.1v-5.6h13.4v6.4c1.2-2.1 2.7-3.8 4.7-5.2 2-1.3 4.4-2 7.3-2s5.3.7 7.5 2.1c2.2 1.4 3.7 3.5 4.5 6.4 1.1-2.5 2.7-4.5 4.9-6.1s4.8-2.4 7.9-2.4c3.5 0 6.5 1.1 8.9 3.3s3.7 5.6 3.7 10.2v18.2h6.1v5.5zm42.5 0h-13.2V66c-1.2 2.2-2.8 4.1-4.9 5.6-2.1 1.6-4.8 2.4-8.3 2.4-4.8 0-8.7-1.6-11.6-4.9-2.9-3.2-4.3-7.7-4.3-13.3 0-5 1.3-9.6 4-13.7 2.6-4.1 6.9-6.2 12.8-6.2s9.8 2.2 12.3 6.5V22.7h-8.6v-5.6h15.8v50.6h6v5.5zm-13.3-16.8V52c-.1-3-1.2-5.5-3.2-7.3s-4.4-2.8-7.2-2.8c-3.6 0-6.3 1.3-8.2 3.9-1.9 2.6-2.8 5.8-2.8 9.6 0 4.1 1 7.3 3 9.5s4.5 3.3 7.4 3.3c3.2 0 5.8-1.3 7.8-3.8 2.1-2.6 3.1-5.3 3.2-8zm61.5 16.8H269v-5.5h6V51.9c0-3.7-.7-6.3-2.2-7.9-1.4-1.6-3.4-2.3-5.7-2.3-3.1 0-5.6 1-7.4 3s-2.8 4.4-2.9 7v15.9h6v5.5h-19.3v-5.5h6V42.4h-6.2v-5.6h13.6V43c2.6-4.6 6.8-6.9 12.7-6.9 3.6 0 6.7 1.1 9.2 3.3s3.7 5.6 3.7 10.2v18.2h6v5.4h-.2z" style="fill: var(--text-primary);"></path><g style="fill: var(--text-link);"><path d="M42 .2 13.4 92.3H1.7L30.2.2H42zM52.4.2v92.1H42V.2h10.4zm40.3 0L64.2 92.3H52.5L81 .2h11.7zM103.1.2v92.1H92.7V.2h10.4zM294 95h67v8.8h-67V95z"></path></g></svg></a>
+                    <a href="https://developer.mozilla.org/en-US/" target="_blank"><svg id="mdn-docs-logo"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 361 104.2" xml:space="preserve" role="img"
+                            width="70">
+                            <title>MDN Web Docs</title>
+                            <path
+                                d="M197.6 73.2h-17.1v-5.5h3.8V51.9c0-3.7-.7-6.3-2.1-7.9-1.4-1.6-3.3-2.3-5.7-2.3-3.2 0-5.6 1.1-7.2 3.4s-2.4 4.6-2.5 6.9v15.6h6v5.5h-17.1v-5.5h3.8V51.9c0-3.8-.7-6.4-2.1-7.9-1.4-1.5-3.3-2.3-5.6-2.3-3.2 0-5.5 1.1-7.2 3.3-1.6 2.2-2.4 4.5-2.5 6.9v15.8h6.9v5.5h-20.2v-5.5h6V42.4h-6.1v-5.6h13.4v6.4c1.2-2.1 2.7-3.8 4.7-5.2 2-1.3 4.4-2 7.3-2s5.3.7 7.5 2.1c2.2 1.4 3.7 3.5 4.5 6.4 1.1-2.5 2.7-4.5 4.9-6.1s4.8-2.4 7.9-2.4c3.5 0 6.5 1.1 8.9 3.3s3.7 5.6 3.7 10.2v18.2h6.1v5.5zm42.5 0h-13.2V66c-1.2 2.2-2.8 4.1-4.9 5.6-2.1 1.6-4.8 2.4-8.3 2.4-4.8 0-8.7-1.6-11.6-4.9-2.9-3.2-4.3-7.7-4.3-13.3 0-5 1.3-9.6 4-13.7 2.6-4.1 6.9-6.2 12.8-6.2s9.8 2.2 12.3 6.5V22.7h-8.6v-5.6h15.8v50.6h6v5.5zm-13.3-16.8V52c-.1-3-1.2-5.5-3.2-7.3s-4.4-2.8-7.2-2.8c-3.6 0-6.3 1.3-8.2 3.9-1.9 2.6-2.8 5.8-2.8 9.6 0 4.1 1 7.3 3 9.5s4.5 3.3 7.4 3.3c3.2 0 5.8-1.3 7.8-3.8 2.1-2.6 3.1-5.3 3.2-8zm61.5 16.8H269v-5.5h6V51.9c0-3.7-.7-6.3-2.2-7.9-1.4-1.6-3.4-2.3-5.7-2.3-3.1 0-5.6 1-7.4 3s-2.8 4.4-2.9 7v15.9h6v5.5h-19.3v-5.5h6V42.4h-6.2v-5.6h13.6V43c2.6-4.6 6.8-6.9 12.7-6.9 3.6 0 6.7 1.1 9.2 3.3s3.7 5.6 3.7 10.2v18.2h6v5.4h-.2z"
+                                style="fill: var(--text-primary);"></path>
+                            <g style="fill: var(--text-link);">
+                                <path
+                                    d="M42 .2 13.4 92.3H1.7L30.2.2H42zM52.4.2v92.1H42V.2h10.4zm40.3 0L64.2 92.3H52.5L81 .2h11.7zM103.1.2v92.1H92.7V.2h10.4zM294 95h67v8.8h-67V95z">
+                                </path>
+                            </g>
+                        </svg></a>
                 </li>
                 <li class="element">
-                    <a href="https://www.bibliaonline.com.br/ara/jo/1" target="_blank"><button class="buttonbible">Bíblia Online</button></a>
+                    <a href="https://www.bibliaonline.com.br/ara/jo/1" target="_blank"><button
+                            class="buttonbible">Bíblia Online</button></a>
                 </li>
             </ul>
         </div>
-     </div>
- </footer>
+        </div>
+    </footer>
 
 </body>
+
 </html>
