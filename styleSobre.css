@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    background-color: ;
 }
 
 body{
@@ -74,9 +75,21 @@ h3{
     font-size: 25px;
     padding: 35px;
 }
+h4{
+    padding-left: 45px;
+}
+
+.h4{
+    padding: 45px;
+}
+
+strong{
+    color:aqua;
+}
+
 p{
     margin-top: 25px;
-    margin-left: 40px;
+    margin-left: 50px;
     text-align: justify;
 }
 .RS{
@@ -100,7 +113,6 @@ footer{
     list-style-type: none;
 }
 .p1{
-    border-top: 2px solid #343868;
     margin-top: 25px;
     font-size: 20pt;
 }
