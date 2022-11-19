@@ -83,8 +83,9 @@ h4{
     padding: 45px;
 }
 
-strong{
+.strong{
     color:aqua;
+    text-transform: uppercase;
 }
 
 p{
@@ -121,4 +122,7 @@ footer{
 }
 .ecma{
     width: 50%;
+}
+.js-img{
+    padding: 5%;
 }
