@@ -92,6 +92,10 @@ p{
     margin-left: 50px;
     text-align: justify;
 }
+.p-center{
+    margin-top: 2em;
+    text-align: center;
+}
 .RS{
     font-size: 15px;
     padding: 50px;
