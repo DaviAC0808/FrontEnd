@@ -3,7 +3,7 @@ window.alert('Bem vindo à area de JavaScript');
 window.confirm('Confirma a entrada no site?');
 
 var nome = window.prompt('insira seu nome:');
-window.alert('Seu nome é: ' + nome);
+window.alert('Seu nome é ' + nome + '?');
 
 window.confirm('Confirme que leu isso');
 
